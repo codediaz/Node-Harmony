@@ -1,0 +1,20 @@
+{
+  "name": "node-harmony",
+  "version": "1.0.0",
+  "description": "This solution leverages Node.js and Express for rapid web application development, MongoDB for flexible data storage, and RabbitMQ for efficient service communication. It embodies clean architecture principles for easy maintenance and scalability, catering to modern, high-performance web projects.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codediaz/Node-Harmony.git"
+  },
+  "keywords": [],
+  "author": "@codediaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codediaz/Node-Harmony/issues"
+  },
+  "homepage": "https://github.com/codediaz/Node-Harmony#readme"
+}
