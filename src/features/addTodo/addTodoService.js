@@ -1,11 +1,9 @@
-const { addTodoDAL } = require('./addTodoDAL');
-
 class AddTodoService {
   async add(todoData) {
-    // Logic to add the todo, e.g., validate data, then call the DAL method
-    const createdTodo = await addTodoDAL.add(todoData);
-    return createdTodo;
+    // Lógica para agregar la tarea
+    // Como es un ejemplo simple, solo vamos a simular la adición
+    return { id: Date.now(), ...todoData };
   }
 }
 
-module.exports = new AddTodoService();
+module.exports = AddTodoService;
